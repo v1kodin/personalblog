@@ -1,0 +1,154 @@
+---
+layout: default
+title: Post
+---
+
+<article class="post">
+        <div class="post__actions">
+            <a href="index.html">назад</a>
+            <a href="#">поделится
+                <img class="post__action--icon" src="/assets/images/post/share.svg" alt="">
+            </a>
+        </div>
+        <div class="post__header post__header--open">
+            <h2 class="post__title post__title--open">
+                Как я сходил на FrontEnd Conf 2021
+            </h2>
+            <ul class="post__data">
+                <li class="post__data-item">
+                    <time datetime="2021-05-10">10.05.2021</time>
+                </li>
+                <li class="post__data-item">
+                    <a href="#">конференция</a>
+                </li>
+            </ul>
+        </div>
+    <div class="post__content">
+        <div class="post__text">
+            <h2>TitleH2</h2>
+            <p>
+                <a href="#">Lorem ipsum dolor sit amet</a>, consectetur adipiscing elit. 
+                Elementum volutpat orci turpis urna. Et vestibulum, posuere 
+                tortor lacinia sit. Sagittis porttitor orci auctor in at 
+                tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor 
+                nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel 
+                volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor 
+                lacinia sit. Sagittis porttitor orci auctor in at tincidunt 
+                arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. 
+                Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+            </p>
+            <h3>TitleH3</h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ex, eligendi. Corrupti unde quidem, molestiae ducimus voluptatibus 
+                quod ad blanditiis sit nobis aliquid autem at nemo nihil odio 
+                veritatis placeat iste. Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Ex, eligendi. Corrupti unde quidem, molestiae 
+                ducimus voluptatibus quod ad blanditiis sit nobis aliquid autem 
+                at nemo nihil odio veritatis placeat iste.
+            </p>
+            <p>
+                <img class="post__preview" src="/assets/images/post/image.jpg" alt="#">
+            </p>
+            <h4>TitleH4</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Ex, eligendi. Corrupti unde quidem, molestiae ducimus voluptatibus 
+                quod ad blanditiis sit nobis aliquid autem at nemo nihil odio 
+                veritatis placeat iste. Lorem ipsum dolor sit amet consectetur, 
+                adipisicing elit. Ex, eligendi. Corrupti unde quidem, molestiae 
+                ducimus voluptatibus quod ad blanditiis sit nobis aliquid autem 
+                at nemo nihil odio veritatis placeat iste.
+            </p>
+            <p>
+                <span class="fr-video">
+                    <iframe src="https://www.youtube.com/embed/p4zbV1MBJNs" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+                        gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </span>
+            </p>
+            
+        </div><!--/.post__text-->
+        <div class="related">
+            <h3 class="post__subtitle">Интересно почитать</h3>
+
+            <ul class="related__list">
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как я сходил на FrontEnd Conf 2021</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2021-05-11">11.05.2021</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Как писать код быстро и Как писать код быстро и</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2021-05-11">11.05.2021</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Купил новый ноутбук за 150 000 руб</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2021-05-11">11.05.2021</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Купил новый ноутбук за 150 000 руб</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2021-05-11">11.05.2021</time>
+                </li>
+            </ul>
+        </div><!--/.related-->
+
+        <h3 class="post__subtitle">Обсуждение</h3>
+
+            <form class="form" action="/" method="POST">
+                <div class="form__group">
+                    <textarea class="form__control form__control--textarea" name="comment-text" placeholder="Текст комментария">
+                    </textarea>
+                    <span class="form__line"></span>
+                </div>
+                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+            </form>
+        <ul class="comments"> <!-- Основной коммент -->
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="/assets/images/comments/avatar1.png" alt="">
+                    <div class="comments__author">
+                        <div class="conmments__name">Дмитрий Валак</div>
+                        <time class="conmments__pubdate" datetime="2021-02-15 10:34">1 неделю назад</time>
+                    </div>
+                </div>
+                <div class="comments__text">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                    Dolorem quas natus animi. Et nesciunt enim mollitia autem, 
+                    vel consequatur velit soluta est placeat vitae temporibus 
+                    ut illo odio asperiores magni?
+                </div>
+                <button class="comments__reply" type="button">ответить</button>
+
+                    <ul class="comments"> <!-- Ответ на  коммент -->
+                        <li class="comments__item">
+                            <div class="comments__header">
+                                <img class="comments__avatar" src="/assets/images/comments/avatar1.png" alt="">
+                                <div class="comments__author">
+                                    <div class="conmments__name">Дмитрий Валак</div>
+                                    <time class="conmments__pubdate" datetime="2021-02-15 10:34">1 неделю назад</time>
+                                </div>
+                            </div>
+                            <div class="comments__text">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Dolorem quas natus animi. Et nesciunt enim mollitia autem, 
+                                vel consequatur velit soluta est placeat vitae temporibus 
+                                ut illo odio asperiores magni?
+                            </div>
+                            <button class="comments__reply" type="button">ответить</button>
+                        </li>
+                    </ul><!-- Ответ на  коммент -->
+            </li>
+        </ul><!--/. Основной коммент -->
+    </div> <!--/.post__content-->
+</article><!--/.post-->

@@ -1,0 +1,60 @@
+@import "vars";
+@import "mixins";
+@import "vendor/reset";
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #181818;
+    font-size: 1.4rem;
+    font-family: -apple-system, BlinkMacSystemFont,Segoe\ UI,
+        Roboto, Helvetica\ Neue, Arial, Noto\ Sans, sans-serif;
+    color: $withe;
+    line-height: 1.5rem;
+
+    &.no-scroll,
+    &.show-sidebar {
+        overflow: hidden;
+    }
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+/* blocks */
+@import "blocks/page";
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/burger";
+@import "blocks/subnav";
+@import "blocks/search";
+@import "blocks/sidebar";
+@import "blocks/profile";
+@import "blocks/main";
+@import "blocks/container";
+@import "blocks/social";
+@import "blocks/btn";
+@import "blocks/stories";
+@import "blocks/add-post";
+@import "blocks/post";
+@import "blocks/embed";
+@import "blocks/pagination";
+@import "blocks/related";
+@import "blocks/comments";
+@import "blocks/form";
+@import "blocks/cabinet";
+@import "blocks/modal";
+@import "blocks/work";
+@import "blocks/tags";
